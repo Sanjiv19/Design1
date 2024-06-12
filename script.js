@@ -13,8 +13,8 @@ formEl.addEventListener('submit',event=>{
         body: data
     }).then(res=>res.json())
       .then(data=> console.log(data))
-      .then(data=> alert("Object created successfully"))
-      .catch(error=> alert("Object not created"))
+      .then(data=> alert("Contract signed Successfully. Here. We. Go !!!!"))
+      .catch(error=> alert("Transfer failed :("))
 
 });
 
